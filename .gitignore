@@ -1,0 +1,6 @@
+# Except below files
+*.csv
+.DF_Store
+
+# Except below folders
+.idea
