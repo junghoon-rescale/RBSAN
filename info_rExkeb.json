@@ -1,0 +1,117 @@
+{
+    "id": "rExkeb",
+    "isLowPriority": false,
+    "billingPriorityValue": "INSTANT",
+    "name": "DrivAer no-rotating-wheel / Emerald 36 Cores",
+    "description": "",
+    "suspensionStatus": null,
+    "suspendAvailable": null,
+    "elapsedWalltimeSeconds": 2188,
+    "owner": "junghoon+test@rescale.com",
+    "clonedFrom": "ccEyT",
+    "templatedFrom": null,
+    "resourceFilters": [],
+    "archiveFilters": [],
+    "isTemplate": false,
+    "cidrRule": "",
+    "publicKey": "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAlhzCjkRYxSa0HZunyPZoIDPgNqV2/TD7apUBda0GfIGV5Ebj7DFA205/w1qeiMqsO8lu0s7o4d7XU5133hw2FvUDOc8IjzsGDhUnMjaA/VhhwWxGX/74mMlvParW0o6w/eMlzSOgHtHcu0p1HcC2nn6a3EIRD/l83DXjl2+RPyfW0lV8x6lE52tPbpq5/GAU/YEmvJJ4Kmqi4Y387wdnYcsldOIPgBqdcMBlgmEyEzbjNLpg8xtXxit/DbmRX4bD+hBo6HaWCyIut7Cn6eh2DP0cTlHeOTDz5bBft60biCIjH32Hg+f52DotT9Ht9AyU0toUEoV4IJZ8XWANLZ9yXw== rsa-key-20210506",
+    "sshPort": 22,
+    "dateInserted": "2023-06-19T05:10:17.441558Z",
+    "sharedWith": [],
+    "isPinned": null,
+    "userTags": [
+        {
+            "name": "Benchmark:STAR-CCM+",
+            "normalizedName": "benchmark:starccm+"
+        }
+    ],
+    "jobanalyses": [
+        {
+            "envVars": {
+                "LM_PROJECT": "XRgH8uUFO+azgG43KYmsqw",
+                "CDLMD_LICENSE_FILE": "1999@flex.cd-adapco.com"
+            },
+            "useRescaleLicense": false,
+            "onDemandLicenseSeller": null,
+            "userDefinedLicenseSettings": null,
+            "analysis": {
+                "code": "cd_adapco_star_ccm",
+                "name": "Simcenter STAR-CCM+",
+                "version": "17.04.008-r8",
+                "versionName": "17.04.008 (Double Precision)",
+                "thumbnail": "https://d1jkc2r02szfl4.cloudfront.net/static/img/analyses_images/cd_adapco_star_ccm/siemens-tech-partner_ksdgegp.png",
+                "type": "compute",
+                "osFamily": "linux"
+            },
+            "command": "starccm+ -power -time -np $RESCALE_CORES_PER_SLOT -batch run -load fullcar-no-rotating-wheel-30ms.sim\nrm *.sim",
+            "flags": {},
+            "hardware": {
+                "slots": 1,
+                "coresPerSlot": 36,
+                "coreType": "emerald_max",
+                "coreSummary": {
+                    "numberOfNodes": 1.0,
+                    "memoryPerNode": 144000.0,
+                    "storagePerNode": 1296,
+                    "gpusPerNode": 0
+                },
+                "walltime": 24,
+                "coreClass": null,
+                "type": "compute",
+                "scheduler": {},
+                "rceConnector": {},
+                "isReusable": false
+            },
+            "inputFolders": [],
+            "postProcessScript": null,
+            "postProcessScriptCommand": "",
+            "preProcessScript": null,
+            "preProcessScriptCommand": "",
+            "templateTasks": [],
+            "inputFiles": [
+                {
+                    "dateUploaded": "2022-12-27T07:31:13.336648Z",
+                    "decryptedSize": 665484759,
+                    "id": "iZvogg",
+                    "isUploaded": true,
+                    "name": "fullcar-no-rotating-wheel-30ms.sim",
+                    "owner": "junghoon+test@rescale.com",
+                    "path": "user/user_thYBgb/fullcar-no-rotating-wheel-30ms.sim-W16fBYJCOeO20aKfayDAqQ",
+                    "relativePath": "fullcar-no-rotating-wheel-30ms.sim",
+                    "pathParts": {
+                        "path": "user/user_thYBgb/fullcar-no-rotating-wheel-30ms.sim-W16fBYJCOeO20aKfayDAqQ",
+                        "container": "krprod-rescale-platform"
+                    },
+                    "typeId": 1,
+                    "fileChecksums": [],
+                    "viewInBrowser": false,
+                    "isDeleted": false,
+                    "downloadUrl": "https://kr.rescale.com/api/v2/files/iZvogg/contents/",
+                    "storage": {
+                        "id": "pCTMk",
+                        "storageType": "S3Storage",
+                        "encryptionType": "default",
+                        "connectionSettings": {
+                            "region": "ap-northeast-2"
+                        }
+                    },
+                    "encodedEncryptionKey": "nmcr0XjV18ZUazjdfYyWojzeyZOE2GKPDrNNug8/B6U=",
+                    "sharedWith": [],
+                    "decompress": true
+                }
+            ]
+        }
+    ],
+    "paramFile": null,
+    "caseFile": null,
+    "jobvariables": [],
+    "isTemplateDryRun": false,
+    "includeNominalRun": false,
+    "monteCarloIterations": null,
+    "expectedRuns": 1,
+    "remoteVizConfig": null,
+    "attachedJobs": [],
+    "projectId": "BKuia",
+    "cluster": null,
+    "autoTerminateCluster": true
+}

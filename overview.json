@@ -1,0 +1,510 @@
+{
+    "count": 128,
+    "next": null,
+    "previous": "https://kr.rescale.com/api/v2/jobs/?page=12",
+    "results": [
+        {
+            "suspensionStatus": null,
+            "suspendAvailable": null,
+            "elapsedWalltimeSeconds": 1251,
+            "dateInserted": "2021-04-12T18:32:32.717558Z",
+            "id": "PeJkU",
+            "isVisible": true,
+            "jobStatus": {
+                "useLabel": false,
+                "labelClass": "",
+                "content": "Completed"
+            },
+            "name": "Abaqus s4b Example - v2019",
+            "owner": "tutorials@rescale.com",
+            "sharedWith": [],
+            "analysisNames": [
+                "Abaqus"
+            ],
+            "jobAnalyses": [
+                {
+                    "analysisName": "Abaqus",
+                    "analysisType": "compute",
+                    "analysisVersion": "2019 (FlexNet Licensing)",
+                    "isOptimizer": false,
+                    "thumbnail": "https://d1jkc2r02szfl4.cloudfront.net/static/img/analyses_images/abaqus/abaqus_zSk85xv.png"
+                }
+            ],
+            "storage": 542802972,
+            "isTemplate": false,
+            "hardware": {
+                "coretype": {
+                    "name": "Emerald",
+                    "acronym": "E",
+                    "color": "#50c878"
+                },
+                "walltime": 1,
+                "coresPerSlot": 4,
+                "slots": 1,
+                "clusterStartTime": "2021-04-12T23:45:09+00:00"
+            },
+            "latestStatus": {
+                "status": "Completed",
+                "statusReason": "Completed successfully",
+                "statusDate": "2021-04-13T00:06:44.344346+00:00",
+                "id": "LqnXEc",
+                "jobId": "PeJkU"
+            },
+            "clusterId": "zUYfd",
+            "userTags": [],
+            "clusterStatusDisplay": {
+                "useLabel": false,
+                "labelClass": "",
+                "content": "Stopped"
+            }
+        },
+        {
+            "suspensionStatus": null,
+            "suspendAvailable": null,
+            "elapsedWalltimeSeconds": 210,
+            "dateInserted": "2021-04-08T13:50:45.330128Z",
+            "id": "vUdFp",
+            "isVisible": true,
+            "jobStatus": {
+                "useLabel": false,
+                "labelClass": "",
+                "content": "Completed"
+            },
+            "name": "ANSYS Fluent 2019R1 Example",
+            "owner": "tutorials@rescale.com",
+            "sharedWith": [],
+            "analysisNames": [
+                "ANSYS Fluent"
+            ],
+            "jobAnalyses": [
+                {
+                    "analysisName": "ANSYS Fluent",
+                    "analysisType": "compute",
+                    "analysisVersion": "2019 R1",
+                    "isOptimizer": false,
+                    "thumbnail": "https://d1jkc2r02szfl4.cloudfront.net/static/img/analyses_images/ansys_fluent/ansys_oWsgxIB.svg"
+                }
+            ],
+            "storage": 69718729,
+            "isTemplate": false,
+            "hardware": {
+                "coretype": {
+                    "name": "Emerald",
+                    "acronym": "E",
+                    "color": "#50c878"
+                },
+                "walltime": 1,
+                "coresPerSlot": 4,
+                "slots": 1,
+                "clusterStartTime": "2021-04-08T13:56:19.887306+00:00"
+            },
+            "latestStatus": {
+                "status": "Completed",
+                "statusReason": "Completed successfully",
+                "statusDate": "2021-04-08T13:59:49.176119+00:00",
+                "id": "ADUfFc",
+                "jobId": "vUdFp"
+            },
+            "clusterId": "wkeYT",
+            "userTags": [],
+            "clusterStatusDisplay": {
+                "useLabel": false,
+                "labelClass": "",
+                "content": "Stopped"
+            }
+        },
+        {
+            "suspensionStatus": null,
+            "suspendAvailable": null,
+            "elapsedWalltimeSeconds": 262,
+            "dateInserted": "2021-04-07T20:42:08.055689Z",
+            "id": "fycan",
+            "isVisible": true,
+            "jobStatus": {
+                "useLabel": false,
+                "labelClass": "",
+                "content": "Completed"
+            },
+            "name": "ANSYS CFX Example v2019R1",
+            "owner": "tutorials@rescale.com",
+            "sharedWith": [],
+            "analysisNames": [
+                "ANSYS CFX"
+            ],
+            "jobAnalyses": [
+                {
+                    "analysisName": "ANSYS CFX",
+                    "analysisType": "compute",
+                    "analysisVersion": "2019 R1",
+                    "isOptimizer": false,
+                    "thumbnail": "https://d1jkc2r02szfl4.cloudfront.net/static/img/analyses_images/ansys_cfx/ansys_hbhHYQJ.svg"
+                }
+            ],
+            "storage": 32471607,
+            "isTemplate": false,
+            "hardware": {
+                "coretype": {
+                    "name": "Emerald",
+                    "acronym": "E",
+                    "color": "#50c878"
+                },
+                "walltime": 2,
+                "coresPerSlot": 4,
+                "slots": 1,
+                "clusterStartTime": "2021-04-07T20:48:37.967180+00:00"
+            },
+            "latestStatus": {
+                "status": "Completed",
+                "statusReason": "Completed successfully",
+                "statusDate": "2021-04-07T20:51:24.033492+00:00",
+                "id": "JcqAac",
+                "jobId": "fycan"
+            },
+            "clusterId": "ZNzMW",
+            "userTags": [],
+            "clusterStatusDisplay": {
+                "useLabel": false,
+                "labelClass": "",
+                "content": "Stopped"
+            }
+        },
+        {
+            "suspensionStatus": null,
+            "suspendAvailable": null,
+            "elapsedWalltimeSeconds": 0,
+            "dateInserted": "2021-03-11T06:31:47.767491Z",
+            "id": "EuHjd",
+            "isVisible": true,
+            "jobStatus": {
+                "useLabel": false,
+                "labelClass": "",
+                "content": ""
+            },
+            "name": "STAR-CCM+ Benchmark Test",
+            "owner": "junghoon+test@rescale.com",
+            "sharedWith": [
+                {
+                    "recipient": {
+                        "email": "shong@rescale.com",
+                        "account": "08-658737582",
+                        "accountName": "KR_Solutions"
+                    },
+                    "supportDesk": null,
+                    "dateInserted": "2022-04-01T04:02:46.297907Z",
+                    "type": "user",
+                    "fullName": "",
+                    "email": "shong@rescale.com",
+                    "workspace": {
+                        "id": "08-658737582",
+                        "name": "KR_Solutions"
+                    }
+                }
+            ],
+            "analysisNames": [
+                "Simcenter STAR-CCM+"
+            ],
+            "jobAnalyses": [
+                {
+                    "analysisName": "Simcenter STAR-CCM+",
+                    "analysisType": "compute",
+                    "analysisVersion": "16.02.009 (Mixed Precision)",
+                    "isOptimizer": false,
+                    "thumbnail": "https://d1jkc2r02szfl4.cloudfront.net/static/img/analyses_images/cd_adapco_star_ccm/siemens-tech-partner_ksdgegp.png"
+                }
+            ],
+            "storage": 0,
+            "isTemplate": true,
+            "hardware": {
+                "coretype": {
+                    "name": "Carbon",
+                    "acronym": "C",
+                    "color": "#293542"
+                },
+                "walltime": 48,
+                "coresPerSlot": 440,
+                "slots": 1,
+                "clusterStartTime": null
+            },
+            "latestStatus": null,
+            "clusterId": null,
+            "userTags": []
+        },
+        {
+            "suspensionStatus": null,
+            "suspendAvailable": null,
+            "elapsedWalltimeSeconds": 0,
+            "dateInserted": "2021-02-21T11:04:10.939456Z",
+            "id": "iZHXd",
+            "isVisible": true,
+            "jobStatus": {
+                "useLabel": false,
+                "labelClass": "",
+                "content": ""
+            },
+            "name": "ABAQUS 2017 GPU Template",
+            "owner": "junghoon+test@rescale.com",
+            "sharedWith": [
+                {
+                    "recipient": {
+                        "email": "shong@rescale.com",
+                        "account": "08-658737582",
+                        "accountName": "KR_Solutions"
+                    },
+                    "supportDesk": null,
+                    "dateInserted": "2022-04-01T04:01:42.838964Z",
+                    "type": "user",
+                    "fullName": "",
+                    "email": "shong@rescale.com",
+                    "workspace": {
+                        "id": "08-658737582",
+                        "name": "KR_Solutions"
+                    }
+                }
+            ],
+            "analysisNames": [
+                "Abaqus"
+            ],
+            "jobAnalyses": [
+                {
+                    "analysisName": "Abaqus",
+                    "analysisType": "compute",
+                    "analysisVersion": "2017 (GPU)",
+                    "isOptimizer": false,
+                    "thumbnail": "https://d1jkc2r02szfl4.cloudfront.net/static/img/analyses_images/abaqus/abaqus_zSk85xv.png"
+                }
+            ],
+            "storage": 0,
+            "isTemplate": true,
+            "hardware": {
+                "coretype": {
+                    "name": "Aquamarine v3",
+                    "acronym": "Av3",
+                    "color": "#0825FF"
+                },
+                "walltime": 12,
+                "coresPerSlot": 6,
+                "slots": 1,
+                "clusterStartTime": null
+            },
+            "latestStatus": null,
+            "clusterId": null,
+            "userTags": []
+        },
+        {
+            "suspensionStatus": null,
+            "suspendAvailable": null,
+            "elapsedWalltimeSeconds": 394,
+            "dateInserted": "2019-08-08T16:19:59.095923Z",
+            "id": "QEzCgb",
+            "isVisible": true,
+            "jobStatus": {
+                "useLabel": false,
+                "labelClass": "",
+                "content": "Completed"
+            },
+            "name": "Tensorflow InceptionV3 synthetic data - 4xP100 AM gpu 1 Obsidian",
+            "owner": "tutorials@rescale.com",
+            "sharedWith": [],
+            "analysisNames": [
+                "TensorFlow"
+            ],
+            "jobAnalyses": [
+                {
+                    "analysisName": "TensorFlow",
+                    "analysisType": "compute",
+                    "analysisVersion": "1.5.0, CUDA 9, py3 (GPU)",
+                    "isOptimizer": false,
+                    "thumbnail": "https://d1jkc2r02szfl4.cloudfront.net/static/img/analyses_images/tensorflow/tensorflow_MkEoIET.svg"
+                }
+            ],
+            "storage": 4307,
+            "isTemplate": false,
+            "hardware": {
+                "coretype": {
+                    "name": "Obsidian",
+                    "acronym": "O",
+                    "color": "#000000"
+                },
+                "walltime": 8,
+                "coresPerSlot": 2,
+                "slots": 1,
+                "clusterStartTime": "2019-08-08T16:36:25.566256+00:00"
+            },
+            "latestStatus": {
+                "status": "Completed",
+                "statusReason": "Completed successfully",
+                "statusDate": "2019-08-08T16:44:06.653157+00:00",
+                "id": "QhXSd",
+                "jobId": "QEzCgb"
+            },
+            "clusterId": "bOERk",
+            "userTags": [],
+            "clusterStatusDisplay": {
+                "useLabel": false,
+                "labelClass": "",
+                "content": "Stopped"
+            }
+        },
+        {
+            "suspensionStatus": null,
+            "suspendAvailable": null,
+            "elapsedWalltimeSeconds": 202,
+            "dateInserted": "2019-07-09T17:35:17.607560Z",
+            "id": "YqyXdb",
+            "isVisible": true,
+            "jobStatus": {
+                "useLabel": false,
+                "labelClass": "",
+                "content": "Completed"
+            },
+            "name": "STAR-CCM+ Adiabatic Combustion Example - 14.02.012",
+            "owner": "tutorials@rescale.com",
+            "sharedWith": [],
+            "analysisNames": [
+                "Simcenter STAR-CCM+"
+            ],
+            "jobAnalyses": [
+                {
+                    "analysisName": "Simcenter STAR-CCM+",
+                    "analysisType": "compute",
+                    "analysisVersion": "14.02.012 (Mixed Precision)",
+                    "isOptimizer": false,
+                    "thumbnail": "https://d1jkc2r02szfl4.cloudfront.net/static/img/analyses_images/cd_adapco_star_ccm/siemens-tech-partner_ksdgegp.png"
+                }
+            ],
+            "storage": 66583133,
+            "isTemplate": false,
+            "hardware": {
+                "coretype": {
+                    "name": "Onyx",
+                    "acronym": "O",
+                    "color": "#ff4242"
+                },
+                "walltime": 8,
+                "coresPerSlot": 2,
+                "slots": 1,
+                "clusterStartTime": "2019-07-09T17:39:27.616048+00:00"
+            },
+            "latestStatus": {
+                "status": "Completed",
+                "statusReason": "Completed successfully",
+                "statusDate": "2019-07-09T17:42:50.042536+00:00",
+                "id": "rYxtT",
+                "jobId": "YqyXdb"
+            },
+            "clusterId": "VwmHV",
+            "userTags": [],
+            "clusterStatusDisplay": {
+                "useLabel": false,
+                "labelClass": "",
+                "content": "Stopped"
+            }
+        },
+        {
+            "suspensionStatus": null,
+            "suspendAvailable": null,
+            "elapsedWalltimeSeconds": 228,
+            "dateInserted": "2019-04-30T19:06:05.936986Z",
+            "id": "efwMV",
+            "isVisible": true,
+            "jobStatus": {
+                "useLabel": false,
+                "labelClass": "",
+                "content": "Completed"
+            },
+            "name": "ANSYS Fluent 2019R1 Example",
+            "owner": "tutorials@rescale.com",
+            "sharedWith": [],
+            "analysisNames": [
+                "ANSYS Fluent"
+            ],
+            "jobAnalyses": [
+                {
+                    "analysisName": "ANSYS Fluent",
+                    "analysisType": "compute",
+                    "analysisVersion": "2019 R1",
+                    "isOptimizer": false,
+                    "thumbnail": "https://d1jkc2r02szfl4.cloudfront.net/static/img/analyses_images/ansys_fluent/ansys_oWsgxIB.svg"
+                }
+            ],
+            "storage": 69717165,
+            "isTemplate": false,
+            "hardware": {
+                "coretype": {
+                    "name": "Onyx",
+                    "acronym": "O",
+                    "color": "#ff4242"
+                },
+                "walltime": 1,
+                "coresPerSlot": 4,
+                "slots": 1,
+                "clusterStartTime": "2019-04-30T19:09:36.084376+00:00"
+            },
+            "latestStatus": {
+                "status": "Completed",
+                "statusReason": "Completed successfully",
+                "statusDate": "2019-04-30T19:13:24.260163+00:00",
+                "id": "piALT",
+                "jobId": "efwMV"
+            },
+            "clusterId": "FNFwo",
+            "userTags": [
+                {
+                    "normalizedName": "ANSYS",
+                    "name": "ANSYS",
+                    "count": 0,
+                    "isFolder": true
+                }
+            ],
+            "clusterStatusDisplay": {
+                "useLabel": false,
+                "labelClass": "",
+                "content": "Stopped"
+            }
+        }
+    ],
+    "allTags": [
+        {
+            "normalizedName": "benchmark:starccm+",
+            "name": "Benchmark:STAR-CCM+",
+            "count": 37,
+            "isFolder": false
+        },
+        {
+            "normalizedName": "benchmark:abaqus",
+            "name": "Benchmark:Abaqus",
+            "count": 22,
+            "isFolder": false
+        },
+        {
+            "normalizedName": "benchmark:particleworks",
+            "name": "Benchmark:Particleworks",
+            "count": 12,
+            "isFolder": false
+        },
+        {
+            "normalizedName": "benchmark:openradioss",
+            "name": "Benchmark:OpenRadioss",
+            "count": 10,
+            "isFolder": false
+        },
+        {
+            "normalizedName": "failed",
+            "name": "failed",
+            "count": 3,
+            "isFolder": false
+        },
+        {
+            "normalizedName": "trial",
+            "name": "Trial",
+            "count": 3,
+            "isFolder": false
+        },
+        {
+            "normalizedName": "demo",
+            "name": "Demo",
+            "count": 1,
+            "isFolder": false
+        }
+    ]
+}
