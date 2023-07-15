@@ -1,4 +1,5 @@
 # Except below files
+*.txt
 *.csv
 *.png
 *.json
