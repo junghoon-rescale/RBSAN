@@ -1,6 +1,9 @@
 # Except below files
 *.csv
+*.png
+*.json
 .DS_Store
 
 # Except below folders
 .idea
+dataframe/
