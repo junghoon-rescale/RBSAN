@@ -1,6 +1,6 @@
 #############################################################################
 #   Author: junghoon@rescale.com                                            #
-#   Last updated: Jul 16, 2023                                              #
+#   Last updated: Dec 17, 2023                                              #
 #   Description: Get a job information by workspace admin                   #
 #   How to use: Just run this script                                        #
 #############################################################################
@@ -61,7 +61,7 @@ def generateDataframe(path_input, file_input, path_output):
 
 def main():
     path_input = 'Billing summaries'
-    workspaceid = '08-773312582'
+    workspaceid = '08-658737582'
     period = '2023_04-2023_06'
     file_input = 'billing_' + workspaceid  + '_' + period + '.csv'
     path_output = 'Dataframe'
