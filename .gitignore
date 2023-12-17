@@ -3,6 +3,7 @@
 *.csv
 *.png
 *.json
+*.ipynb
 
 # Except below folders
 .idea/
