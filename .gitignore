@@ -5,8 +5,8 @@
 *.json
 
 # Except below folders
-.idea
-.ipynb_checkpoints
+.idea/
+.ipynb_checkpoints/
 Dataframe/
 Billings/
 Debugging/
