@@ -13,6 +13,15 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
+def csvfilelistgen(path):
+    list_csvfile = []
+    for filename in os.listdir(path):
+        if filename.endswith('.csv'):
+            file_path = os.path.join(path, filename)
+            list_csvfile.append(file_path)
+    return list_csvfile
+
+'''
 def generateDataframe(path_input, file_input, path_output):
     df_raw = pd.read_csv(path_input + '/' + file_input)
     df_raw = df_raw.drop(["Workspace ID", "Project ID", "ID", "Name", "Rescale On-Demand License", "License Settings", "Unit Charge/Hour", "Walltime", "SKU"], axis=1)
@@ -57,20 +66,18 @@ def generateDataframe(path_input, file_input, path_output):
     df_transfer.columns = ["Month", "Category", "User", "Usage", "Charge [$]"]
     df = pd.concat([df_compute, df_connection, df_storage, df_transfer], axis=0, ignore_index=True)
     return df
-
+'''
 
 def main():
-    path_input = 'Billing summaries'
-    workspaceid = '08-658737582'
-    period = '2023_04-2023_06'
-    file_input = 'billing_' + workspaceid  + '_' + period + '.csv'
-    path_output = 'Dataframe'
-    df = generateDataframe(path_input, file_input, path_output)
-    output = path_output + '/' + 'df_' + workspaceid + '.csv'
-    if os.path.exists(output):
-        print("Dataframe is already existing")
-    else:
-        df.to_csv(output, mode="w", index=False)
+    path = 'C:\\Rescale\\RBSAN\\Billings\\08-658737582'
+    id_workspace = os.path.basename(path)
+    list_csvfile = csvfilelistgen(path)
+    print(id_workspace)
+    print(list_csvfile)
+#    if os.path.exists(output):
+#        print("Dataframe is already existing")
+#    else:
+#        df.to_csv(output, mode="w", index=False)
 
 
 if __name__ == '__main__':
