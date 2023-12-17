@@ -6,6 +6,7 @@
 
 # Except below folders
 .idea
+.ipynb_checkpoints
 Dataframe/
-Billing summaries/
+Billings/
 Debugging/
